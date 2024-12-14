@@ -27,13 +27,11 @@ public class Replacer implements NativeKeyListener {
     }
 
     private void initializeActions() {
-        // Определяем последовательности и соответствующие им действия
         actions.put("otagging", "https://cdn.7tv.app/emote/01J0PYKYFR00068734GKCYD6P4/4x.gif");
-        actions.put("Shocked", "https://cdn.7tv.app/emote/01GSZXG0B000087DXYC0P80SQT/4x.gif");
+        actions.put("shocked", "https://cdn.7tv.app/emote/01GSZXG0B000087DXYC0P80SQT/4x.gif");
         actions.put("rilobulion", "https://cdn.7tv.app/emote/01G1H198F80005G1MWWMPGT05K/4x.gif");
-        actions.put("buhFlip", "https://cdn.7tv.app/emote/01J4PE2RKG0004SVBK6PNC37T6/4x.gif");
-        actions.put("URAyaderka", "https://cdn.7tv.app/emote/01G9TPSGDG000AGTWTH4BHTCTY/4x.gif");
-        actions.put("pwgood3", "https://cdn.7tv.app/emote/01H1TJF9S80000RZ6N0QXF5NWT/4x.gif");
+        actions.put("buhflip", "https://cdn.7tv.app/emote/01J4PE2RKG0004SVBK6PNC37T6/4x.gif");
+        actions.put("urayaderka", "https://cdn.7tv.app/emote/01G9TPSGDG000AGTWTH4BHTCTY/4x.gif");
         actions.put("gde", "https://cdn.7tv.app/emote/01GPC2MPYR0000TJ7CCYB26WBX/4x.gif");
     }
 

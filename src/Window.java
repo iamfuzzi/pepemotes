@@ -11,7 +11,7 @@ public class Window {
         frame.setResizable(false);
         frame.setUndecorated(true);
         // frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        ImageIcon icon = new ImageIcon("assets/icon.png");
+        ImageIcon icon = new ImageIcon("assets/textures/logo/logo.png");
         frame.setIconImage(icon.getImage());
         frame.setLocationRelativeTo(null);
 
@@ -38,13 +38,13 @@ public class Window {
         Graphics graphics = new Graphics(frame);
 
         graphics.Rectangle(0, 0, 400, 30, "3B3733", 0);
-        graphics.Image(5, 5, 20, 20, "assets/icon.png", 1);
+        graphics.Image(5, 5, 20, 20, "assets/textures/logo/logo.png", 1);
 
         graphics.Text(36, 20, 16, "F7B947", "San Francisco", "Тестик", 5);
 
         // Кнопка скрытия окна
         graphics.HideButton(373, 3, 24, 24, "", 4);
-        graphics.ImageW(373, 3, 24, "assets/icons/hide.png", 4);
+        graphics.ImageW(373, 3, 24, "assets/textures/icons/hide.png", 4);
 
         frame.pack();
         frame.setVisible(true);

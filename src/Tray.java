@@ -15,7 +15,7 @@ public class Tray {
         }
 
         // Создаем иконку для трея
-        Image image = Toolkit.getDefaultToolkit().getImage("assets/icon.png");
+        Image image = Toolkit.getDefaultToolkit().getImage("assets/textures/logo/logo.png");
         trayIcon = new TrayIcon(image, "Программа");
 
         // Создаем контекстное меню
